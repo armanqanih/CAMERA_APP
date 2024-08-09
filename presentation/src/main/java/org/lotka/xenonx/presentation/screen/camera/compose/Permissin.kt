@@ -1,4 +1,4 @@
-package org.lotka.xenonx.presentation
+package org.lotka.xenonx.presentation.screen.camera.compose
 
 import android.Manifest
 
@@ -11,4 +11,11 @@ sealed class Permissin {
         )
     }
 
+
+
+
+
+
+
 }
+

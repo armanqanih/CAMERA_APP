@@ -1,4 +1,4 @@
-package org.lotka.xenonx.presentation
+package org.lotka.xenonx.presentation.screen.camera.compose
 
 import android.graphics.Bitmap
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -11,7 +11,6 @@ import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
 import androidx.compose.foundation.lazy.staggeredgrid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier

@@ -1,4 +1,4 @@
-package org.lotka.xenonx.presentation
+package org.lotka.xenonx.presentation.screen.camera.compose
 
 
 import androidx.camera.view.LifecycleCameraController
