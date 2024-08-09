@@ -8,7 +8,7 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "Note App 2024"
+rootProject.name = "CAMERA_APP"
 include ':app'
 include ':benchmark'
 include ':presentation'

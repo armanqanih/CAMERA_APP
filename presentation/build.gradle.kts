@@ -52,6 +52,7 @@ dependencies {
     implementation("androidx.paging:paging-common-android:3.3.0")
     implementation("androidx.paging:paging-compose-android:3.3.0")
     implementation("androidx.compose.material3:material3-android:1.2.1")
+    implementation("androidx.camera:camera-view:1.3.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -73,9 +74,25 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.8.0")
 
+    val cameraxVersion = "1.3.0-rc01"
+
+    implementation("androidx.camera:camera-core:$cameraxVersion")
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-video:$cameraxVersion")
+
+    implementation("androidx.camera:camera-view:$cameraxVersion")
+    implementation("androidx.camera:camera-extensions:$cameraxVersion")
+
+
+
+
     //Splash Api
     implementation ("androidx.core:core-splashscreen:1.0.1")
 
+
+    // Extended Icons
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
 
     // ConstraintLayout
     implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
